@@ -18,3 +18,7 @@ if __name__ == '__main__':
     print(red.idade)
     for filho in red.filhos:
         print(filho.nome)
+    red.sobrenome = 'Rage'
+    del  red.filhos
+    print(red.__dict__)
+    print(chuck.__dict__)
